@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+	ios_base::sync_with_stdio(false);
 	cout << "Enter tower height between 1 and 25 inclusive:" << endl;
 	int n;
 	cin >> n;
@@ -13,8 +14,8 @@ int main() {
 		cout << "Invalid" << endl;
 	}
 	else {
-		cout << "The moves required to move " << n << " discs from peg A to peg C are:" << endl;
 		string result = " ";
+		cout << "The moves required to move " << n << " discs from peg A to peg C are:" << endl;
 		char base;
 		if (n % 2 == 0) {
 			base = 'B';
@@ -48,4 +49,7 @@ int main() {
 		cout << result << endl;
 		cout << "Minimum number of moves is " << result.size() / 3 << endl;
 	}
+	cin.ignore(std::cin.rdbuf()->in_avail());
+	cout << "Press enter to close" << endl;
+	cin.ignore();
 }
