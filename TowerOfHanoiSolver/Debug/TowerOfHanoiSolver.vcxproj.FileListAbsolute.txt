@@ -1,0 +1,2 @@
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiSolver\Debug\TowerOfHanoiSolver.exe
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiSolver\Debug\TowerOfHanoiSolver.pdb
