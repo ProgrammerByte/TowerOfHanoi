@@ -7,4 +7,5 @@ A graphical program where the user can experiment with the famous Tower of Hanoi
 -up / down - increases / decreases the number of discs respectively and resets the puzzle.  
 -s - toggles auto-solve mode.  
 -left / right - decreases / increases the speed of the auto-solve mode.  
--escape - closes the program
+-r - resets the speed of the auto-solve mode to 10.  
+-escape - closes the program.
