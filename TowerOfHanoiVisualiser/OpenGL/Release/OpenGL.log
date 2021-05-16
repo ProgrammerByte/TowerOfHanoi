@@ -1,0 +1,30 @@
+﻿  Application.cpp
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(15,101): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(20,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(21,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(22,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(74,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(78,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(81,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(93,71): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(93,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(94,93): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(94,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(96,46): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(99,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(101,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(183,10): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(186,27): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\src\Application.cpp(210,24): warning C4305: 'argument': truncation from 'double' to 'float'
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  11 of 366 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\Release\vc120.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> C:\Users\Thomas Popay\source\repos\TowerOfHanoiVisualiser\OpenGL\Release\Template.exe
